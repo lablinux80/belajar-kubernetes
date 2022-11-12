@@ -43,4 +43,4 @@ metadata:
 spec:
   containers:
     - name: curl
-      image: khannedy/nginx-curl
+      image: junius/nginx-curl

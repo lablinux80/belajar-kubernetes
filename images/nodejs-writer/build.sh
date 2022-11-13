@@ -1,11 +1,11 @@
 # Build image
-docker build -t khannedy/nodejs-writer .
+docker build -t junius/nodejs-writer .
 
 # Push image
-docker push khannedy/nodejs-writer
+docker push junius/nodejs-writer
 
 # Create container
-docker container create --name nodejs-writer khannedy/nodejs-writer
+docker container create --name nodejs-writer junius/nodejs-writer
 
 # Start container
 docker container start nodejs-writer
